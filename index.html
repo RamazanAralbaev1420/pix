@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Olimp tanrılarıyla epik bir piksel macerasında savaşın! Antik dünyayı keşfedin, güçlü yeteneklerinizi kullanın ve bir kahraman olun!"
+    />
+    <meta
+      name="keywords"
+      content="piksel oyun, olimp tanrıları, macera oyunu, savaş, ateşli kılıç, ışık kalkanı, şok dalgası, iblis kanatları, antik dünya, kahraman"
+    />
+    <meta name="author" content="Şirket adı veya geliştirici" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Olimp Tanrılarıyla Epik Piksel Oyunu - Kahramanlık Macerası</title>
+
+    <link rel="stylesheet" href="css/style.css" media="all" />
+  </head>
+  <body>
+    <div class="cookie-consent-banner" id="cookieBanner">
+      <span>
+        Bu site, kullanıcı deneyimini iyileştirmek için çerezler kullanmaktadır.
+        Kabul ediyor musunuz?
+      </span>
+      <br /><a
+        href="politic.html#Coockie"
+        style="text-decoration: underline; color: #228bef"
+        id="more_details"
+        >daha fazla ayrıntı</a
+      >
+      <button id="acceptCookies">Evet, kabul ediyorum</button>
+    </div>
+    <div class="modal_background"></div>
+    <div class="modal_container">
+      <div class="modal_container_header">
+        <h3 style="text-align: center">Arama isteğinde bulunun</h3>
+        <div class="modal_close">
+          <span> &#x2297; </span>
+        </div>
+      </div>
+      <div class="modal_form">
+        <form action="" class="formMod">
+          <input type="text" name="name" required placeholder="İsim" />
+          <input
+            type="tel"
+            name="phone"
+            required
+            placeholder="telefon yaki email"
+          />
+          <div class="checkText">
+            <input type="checkbox" id="politicCheck" name="checkbox" checked />
+            <span
+              >Kişisel verilerin işlenmesini ve gizlilik politikasını kabul
+              ediyorum. <br />
+              <a
+                href="politic.html#form_info"
+                style="text-decoration: underline; color: #228bef"
+                >neden verilerinize ihtiyacımız var?</a
+              >
+            </span>
+          </div>
+          <div class="default_btn">
+            <button type="submit" id="submitBtn">Bir istek bırakın</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="wrapper">
+      <header id="header">
+        <div class="container">
+          <div class="header">
+            <div class="logo">
+              <a href="/">
+                <img src="images/logo.png" alt="logo" data-src=""
+              /></a>
+            </div>
+            <nav class="desktop">
+              <ul class="nav_links">
+                <li>
+                  <a href="#select-her">Kahraman Seçimi</a>
+                </li>
+                <li>
+                  <a href="#survivor">Dünyayı Keşfi</a>
+                </li>
+                <li>
+                  <a href="#gods">Olimp Tanrıları</a>
+                </li>
+                <li>
+                  <a href="#form">Son Haberler</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="mobile">
+              <span class="line open_btn" id="burgerButton"></span>
+
+              <nav class="mobile_links">
+                <div class="close_btn">
+                  <span> &#x2297; </span>
+                </div>
+                <ul class="nav_links_mobile">
+                  <li>
+                    <a href="#select-her">Kahraman Seçimi</a>
+                  </li>
+                  <li>
+                    <a href="#survivor">Dünyayı Keşfi</a>
+                  </li>
+                  <li>
+                    <a href="#gods">Olimp Tanrıları</a>
+                  </li>
+                  <li>
+                    <a href="#form">Son Haberler</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div id="accept_mobile_container">
+          <div class="accept">
+            <div class="accept_title">
+              <h2>18 yaşında mısın?</h2>
+            </div>
+            <div class="accept_btns">
+              <div class="accept_btn default_btn no_btn_accept">
+                <a
+                  href="https://"
+                  id="mobile_content_no"
+                  class="mobile_content_btn"
+                  >Hayir</a
+                >
+              </div>
+              <div class="accept_btn default_btn yes_btn_accept">
+                <a
+                  href="https://"
+                  id="mobile_content_yes"
+                  class="mobile_content_btn"
+                  >Evet</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section id="hero-section">
+          <div class="container">
+            <div class="hero-section">
+              <div class="hero-section_title">
+                <h1>Mythos Çatışması: Olimpos Savaşı</h1>
+              </div>
+              <div class="hero-section_description">
+                <p>
+                  Mythos Çatışması ile mit ve efsane dolu piksel dünyasına adım
+                  at! Tek başına bir savaşçı olarak, kadim tanrıların gazabına
+                  karşı durmalısın.
+                </p>
+              </div>
+
+              <div class="hero-section_btn default_btn openModal">
+                <button>Daha fazla bilgi edin</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="select-hero">
+          <div class="container">
+            <div class="select-hero">
+              <div class="select-hero-left">
+                <img src="images/select-hero.webp" alt="" />
+              </div>
+              <div class="select-hero-right">
+                <div class="select-hero-right-title">
+                  <h2>Kahraman Seçimi - Efsanevi Maceraya İlk Adımını At</h2>
+                </div>
+                <div class="select-hero-right-description">
+                  <p>
+                    Bir efsane yaratmaya hazır mısın? Kahramanını seç ve Olimpos
+                    Tanrıları'na karşı destansı savaşa katıl! Savaşçılar,
+                    büyücüler ve diğer mistik kahramanlar arasından seçim
+                    yaparak kaderine yön ver. Hangi kahraman Olimpos'un kudretli
+                    tanrılarıyla yüzleşmeye cesaret edebilecek?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="survivor">
+          <div class="container">
+            <div class="survivor">
+              <div class="survivor-left">
+                <div class="survivor-left-title">
+                  <h2>Kahramanın Gizemli Dünyayı Keşfi</h2>
+                </div>
+                <div class="survivor-left-description">
+                  <p>
+                    Efsanevi kahramanımız, zengin ve tehlikelerle dolu bir
+                    dünyayı keşfetmeye çıkıyor. Gizemli ormanlar, kadim
+                    tapınaklar ve düşmanlarla dolu bu dünyada, her köşede yeni
+                    bir macera bekliyor. Cesaretin ve zekânın en büyük silahın
+                    olduğu bu yolculukta hayatta kalmak için keşfet, strateji
+                    geliştir ve ilerle!
+                  </p>
+                </div>
+              </div>
+              <div class="survivor-right">
+                <img src="images/survivor.webp" alt="" />
+                <img src="images/survivor2.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="gods">
+          <div class="container">
+            <div class="gods">
+              <div class="gods-title">
+                <h2>Olimp Tanrıları: Son Savaş</h2>
+                <img src="images/gods-bottom.png" alt="" />
+              </div>
+              <div class="gods-cards">
+                <div class="gods-cards-card">
+                  <img src="images/god1.webp" alt="" />
+                </div>
+                <div class="gods-cards-card">
+                  <img src="images/god2.webp" alt="" />
+                </div>
+                <div class="gods-cards-card">
+                  <img src="images/god3.webp" alt="" />
+                </div>
+                <div class="gods-cards-card">
+                  <img src="images/god4.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="war">
+          <div class="container">
+            <div class="war">
+              <div class="war-title"><h2>Yetenekler</h2></div>
+              <div class="war-info">
+                <div class="war-left">
+                  <img src="images/single-hero-removebg-preview.png" alt="" />
+                </div>
+                <div class="war-right">
+                  <div class="war-right-images">
+                    <div class="war-right-images-image">
+                      <img src="images/skill1.jpg" alt="" />
+                      <div class="skill-info">
+                        <h3>Alev Kılıcı</h3>
+                        <p>
+                          Kahramanın kılıcı alevler içinde kalır ve yoğun bir
+                          ısıyla yanar.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="war-right-images-image">
+                      <img src="images/skill2.jpg" alt="" />
+                      <div class="skill-info">
+                        <h3>Işık Kalkanı</h3>
+                        <p>
+                          İlahi enerjiyi çağıran kahraman, saf ışıktan yapılmış
+                          bir kalkan yaratır
+                        </p>
+                      </div>
+                    </div>
+                    <div class="war-right-images-image">
+                      <img src="images/skill3.jpg" alt="" />
+                      <div class="skill-info">
+                        <h3>Darbe Dalgası</h3>
+                        <p>
+                          Kılıcın güçlü bir şekilde aşağı doğru savrulmasıyla
+                          kahraman yere çarpar
+                        </p>
+                      </div>
+                    </div>
+                    <div class="war-right-images-image">
+                      <img src="images/skill4.jpg" alt="" />
+                      <div class="skill-info">
+                        <h3>Şeytan Kanatları</h3>
+                        <p>
+                          Kahraman geçici olarak bir çift şeytani kanat çıkarır
+                          ve bu kanatlar
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="form">
+          <div class="container">
+            <div class="form">
+              <div class="form-img">
+                <?xml version="1.0" standalone="no"?>
+                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50.000000pt"
+                  height="50.000000pt"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <metadata>
+                    Created by potrace 1.16, written by Peter Selinger 2001-2019
+                  </metadata>
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    fill="#fff"
+                    stroke="none"
+                  >
+                    <path
+                      d="M2455 5101 c-22 -10 -128 -86 -235 -169 l-195 -152 -491 0 -492 0
+-53 -28 c-60 -31 -113 -93 -129 -150 -6 -22 -10 -179 -10 -387 l-1 -350 -401
+-310 c-220 -170 -411 -321 -424 -334 l-24 -24 0 -1495 c0 -1144 3 -1504 12
+-1536 16 -55 99 -138 154 -154 60 -18 4728 -18 4788 0 55 16 138 99 154 154 9
+32 12 392 12 1536 l0 1495 -24 24 c-13 13 -204 164 -424 334 l-401 310 -1 351
+c0 385 -3 406 -60 476 -17 20 -53 48 -82 62 l-52 26 -490 0 -491 0 -195 152
+c-107 83 -213 159 -235 169 -26 12 -63 19 -105 19 -42 0 -79 -7 -105 -19z
+m227 -232 c51 -40 97 -76 103 -80 5 -5 -95 -9 -225 -9 l-235 0 34 28 c128 101
+175 132 201 132 19 0 57 -22 122 -71z m1383 -294 l25 -24 0 -791 c0 -814 0
+-817 39 -847 29 -23 89 -16 116 13 l25 27 2 339 3 340 285 -222 c157 -121 285
+-225 285 -230 0 -5 -319 -257 -710 -560 -390 -304 -713 -557 -717 -563 -4 -7
+-8 -31 -8 -54 0 -52 34 -83 89 -83 32 0 109 57 736 544 l700 544 3 -668 c1
+-368 1 -972 0 -1343 l-3 -674 -1124 873 c-620 481 -1141 879 -1160 886 -46 15
+-136 15 -182 0 -19 -7 -541 -405 -1160 -885 l-1124 -874 -3 668 c-1 367 -1
+971 0 1342 l3 675 675 -525 c371 -289 689 -533 705 -544 44 -28 81 -24 116 10
+40 40 39 81 -3 125 -18 19 -341 274 -718 566 -377 292 -685 535 -685 540 0 5
+128 109 285 231 l285 221 5 -347 5 -347 24 -19 c26 -22 87 -25 112 -6 39 30
+39 33 39 847 l0 791 25 24 24 25 1481 0 1481 0 24 -25z m-1455 -2680 c8 -6
+507 -394 1109 -861 l1094 -849 -1126 -3 c-620 -1 -1634 -1 -2254 0 l-1127 3
+1093 850 c602 468 1108 858 1125 867 31 18 58 16 86 -7z"
+                    />
+                    <path
+                      d="M2369 4425 c-204 -39 -391 -139 -542 -291 -166 -167 -265 -380 -289
+-624 -45 -446 206 -867 622 -1043 111 -46 187 -65 307 -76 82 -7 104 -6 133 8
+43 20 59 65 40 111 -18 43 -37 50 -153 61 -359 34 -656 286 -748 634 -31 115
+-31 300 -1 412 42 157 112 279 224 392 104 105 207 167 358 217 78 26 97 28
+240 28 143 0 162 -2 240 -28 299 -99 497 -306 583 -611 16 -58 20 -111 24
+-320 5 -249 5 -250 -19 -295 -34 -63 -86 -92 -156 -87 -56 4 -91 23 -126 71
+-19 25 -21 45 -26 246 -5 214 -5 219 -29 244 -18 19 -35 26 -63 26 -57 0 -84
+-32 -93 -106 -34 -285 -356 -414 -558 -225 -217 202 -99 538 203 579 50 7 68
+15 87 36 52 61 6 146 -79 146 -183 -1 -375 -124 -452 -292 -72 -156 -71 -301
+4 -454 48 -98 140 -191 234 -235 165 -78 371 -62 520 41 32 21 47 27 50 18 36
+-137 107 -219 223 -260 82 -29 197 -22 271 16 98 50 158 128 181 234 14 67 14
+430 1 542 -52 420 -349 757 -765 870 -105 29 -334 36 -446 15z"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="form-title">
+                <h3>Son Haberler ve Güncellemeler</h3>
+              </div>
+              <div class="form-description">
+                <p>
+                  Özel indirimlerle ilgili haberleri almak için güncel
+                  bültenimize abone olun.
+                </p>
+              </div>
+              <div class="form-input">
+                <form action="">
+                  <div class="checkText">
+                    <input
+                      type="checkbox"
+                      id="politicCheck"
+                      name="checkbox"
+                      checked
+                    />
+                    <br />
+                    <span>
+                      Kişisel verilerin işlenmesini ve gizlilik politikasını
+                      kabul ediyorum
+                      <a
+                        href="politic.html#form_info"
+                        style="text-decoration: underline; color: #228bef"
+                        >neden verilerinize ihtiyacımız var?</a
+                      >
+                    </span>
+                  </div>
+
+                  <div class="for">
+                    <input type="text" placeholder="email" />
+
+                    <button type="submit" class="default_btn">SEND</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
+        <div class="container">
+          <div class="footer">
+            <div class="footer_left">
+              <h3>Mağaza bilgisi</h3>
+              <p>
+                Çamlık Mahallesi, Çınar Sokak No: 15, 34760 Ümraniye, İstanbul,
+                Türkiy
+              </p>
+            </div>
+            <div class="footer_middle">
+              <h3>Kişiler</h3>
+              <p>+90 537 471 72 57</p>
+              <p>gamehub.support@playzone.com</p>
+            </div>
+
+            <div class="footer_right">
+              <p>
+                Güvenlik politikamızı okuyun
+                <a
+                  href="politic.html"
+                  style="text-decoration: underline; color: #228bef"
+                  >politic</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script defer src="js/script.js"></script>
+  </body>
+</html>
