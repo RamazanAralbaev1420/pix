@@ -760,6 +760,7 @@ header.scrolled {
 .accept_btns {
   display: flex;
   gap: 30px;
+  transform: translateY(50px);
 }
 
 .no_btn_accept {
